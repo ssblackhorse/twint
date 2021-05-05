@@ -1,0 +1,11 @@
+---
+application:
+  name: "twint"
+  project: "twint"
+  organization: "QoveryCommunity"
+routers:
+- name: "main-twint"
+  routes:
+  - application_name: "twint"
+    paths:
+    - "/*"
